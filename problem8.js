@@ -1,4 +1,4 @@
-function capitalizeWords(str) {
+function capitalWords(str) {
   let result = ""; 
 
   for (let word of str.split(' ')) {
@@ -7,4 +7,4 @@ function capitalizeWords(str) {
 
   return result.trim(); 
 }
-console.log(capitalizeWords("hello world"));
+console.log(capitalWords("hello world"));
